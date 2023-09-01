@@ -1,28 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 /* 1 */
 body {
-  background-color: #b4b4b4;
-  background-image: url("../img/pink-flowers.webp");
-  background-size: 13%;
+  background: #b4b4b4 url("../img/pink-flowers.webp") 0/14%;
+  background-attachment: fixed;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 400;
 }
 /* 10 */
 .wrapper {
-  width: 89%;
+  width: 88%;
   margin: 0 auto 26px;
   background-color: #fff;
-  padding: 96px 50px 18px;
+  padding: 0 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
 }
 /* 10 */
 .header__heading {
+  padding-top: 96px;
   margin-bottom: 46px;
-  color: #a11414;
   font-size: 2rem;
-  line-height: 39px;
+  color: #a11414;
 }
 /* 10 */
-.header__heading--text-upper {
+.header__heading--special {
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -44,6 +45,10 @@ body {
   font-weight: 700;
   margin-bottom: 15px;
   line-height: 28px;
+}
+/* 20 */
+.section--flex .article {
+  margin-right: 3px;
 }
 /* 10 */
 .section {
@@ -82,29 +87,33 @@ body {
   text-decoration: underline;
 }
 /* 10 */
-.article__text--text-upper {
+.article__text--special {
   text-transform: uppercase;
 }
 /* 10 */
-.article__text--mod-red {
+.article__text--modify {
   color: #a11414;
 }
 /* 10 */
-.article__text--text-strike {
+.article__text--alter {
   text-decoration: line-through;
+}
+.article__item--individualize {
+  margin-top: 29px;
 }
 /* 10 */
 .footer {
-  padding: 7px 50px 6px;
+   width: 85%;
+   margin-top: 4px;
+   padding-bottom: 18px;
 }
 /* 10 */
 .footer__item {
-  width: 71%;
   background-image: url("../img/back.png");
   background-position: center;
   text-align: center;
 }
 /* 10 */
-.footer__item--text-bold {
+.footer__item--change {
   font-weight: 700;
 }
